@@ -5,7 +5,7 @@
  * Return:1 if c is lowercase or 0 for anything else
  */
 
-int -islower.c(int c)
+int _islower.c(int c)
 
 {
 
