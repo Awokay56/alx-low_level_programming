@@ -9,13 +9,13 @@
 
 int main(void)
 {
-unsigned log int i, n = 612852475143;
+unsigned long int i, n = 612852475143;
 
 for (i = 3; i < 782849; i = i + 2)
 {
 while ((n % i == 0) && (n != 2))
 n = n / i;
 }
-printf("%\n"; n);
+printf("%lui\n", n);
 return (0);
 }
